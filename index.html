@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=bungee' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="genesysStyles.css">
+  <title>Genesys Calculator</title>
+</head>
+
+<body style="text-align: center;">
+
+
+<div class="resultViewer">
+  <p id="success_failure"></p>
+  <p id="advantage_threat"></p>
+  <p id="triumph_despair"></p>
+</div>
+
+<div class="spacer"></div>
+
+<div class="buttonContainer">
+  <button id="boostBtn" onclick="randomBoostDice()">B</button>
+  <button id="abilityBtn" onclick="randomAbilityDice()">A</button>
+  <button id="proficiencyBtn" onclick="randomProficiencyDice()">P</button>
+  <button id="setbackBtn" onclick="randomSetbackDice()">S</button>
+  <button id="difficultyBtn" onclick="randomDifficultyDice()">D</button>
+  <button id="challengeBtn" onclick="randomChallengeDice()">C</button>  
+</div>
+
+<script src="genesysCalculator.js"></script>
+
+</body>
+
+
+</html>
