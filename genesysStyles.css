@@ -1,11 +1,11 @@
 body {
 	background: url("assets/background.jpg");
-	background-size: 1440px;
-	background-position: center top;
+	background-size: auto;
+	background-position: center;
 	background-color: black;
 	background-repeat: no-repeat;  
 	font-family: 'Bungee';
-	font-size: 18px;
+	font-size: 1.5em;
 	color: white;
 	margin: 0px;
 	padding: 0px;
@@ -21,7 +21,7 @@ body {
  }
 
  .spacer {
- 	margin-bottom: 160px;
+ 	margin-bottom: 20%;
  }
 
 .buttonContainer {
@@ -29,15 +29,17 @@ body {
  	bottom: 0px;
  	margin: auto;
  	width: 98%;
+ 	height: 10%;
  	padding: 10px;
 	background: url("assets/pixel50p.svg");
 }
 
 button  {
- 	width: 48px;
- 	height: 48px;
+ 	width: 10%;
+ 	height: 100%;
  	border-style: none;
-	font-family: 'Bungee';font-size: 18px;
+	font-family: 'Bungee';
+	font-size: 1em;
 	color: white;
 	margin-right: 4%;
 }

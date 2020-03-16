@@ -122,7 +122,7 @@ succadvCount = allDiceResults.filter(x => x == "succadv").length;
 console.log("SuccAdv count = " + succadvCount);
 
 var failureCount;
-failureCount = allDiceResults.filter(x => x = "failure").length;
+failureCount = allDiceResults.filter(x => x == "failure").length;
 console.log("Failure count = " + failureCount);
 
 var failfailCount;
@@ -158,10 +158,10 @@ console.log("Despair count = " + despairCount);
     document.getElementById("success_failure").innerHTML = "Success: 0";
     } 
     if (finalSum > 0) {
-    document.getElementById("success_failure").innerHTML = "Success: " + (triumphCount + successCount + succsuccCount + succadvCount - failureCount - failfailCount - failthretCount - despairCount);
+    document.getElementById("success_failure").innerHTML = "Success: " + finalSum;
     } 
     if (finalSum < 0) {
-    document.getElementById("success_failure").innerHTML = "Failure: " + (despairCount + failureCount + failfailCount + failthretCount - successCount - succsuccCount - succadvCount - triumphCount);
+    document.getElementById("success_failure").innerHTML = "Failure: " + finalSum;
     } 
 
   //advantage or threat
