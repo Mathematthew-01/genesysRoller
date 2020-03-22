@@ -1,14 +1,14 @@
 body {
 	background: url("assets/background.jpg");
 	background-size: auto;
-	background-position: center;
+	background-position: top;
 	background-color: black;
 	background-repeat: no-repeat;  
 	font-family: 'Bungee';
 	font-size: 1.5em;
 	color: white;
 	margin: 0px;
-	padding: 0px;
+	padding: 100px 0px;
 }
 
 .resultViewer {
@@ -21,7 +21,7 @@ body {
  }
 
  .spacer {
- 	margin-bottom: 20%;
+ 	margin-bottom: 10%;
  }
 
 .buttonContainer {
@@ -39,49 +39,49 @@ button  {
  	height: 100%;
  	border-style: none;
 	font-family: 'Bungee';
-	font-size: 1em;
+	font-size: 1.2em;
 	color: white;
 	margin-right: 4%;
 }
 
 #boostBtn {
 	background: url("assets/boostBtn.png");
-	background-size: 98%;
+	background-size: 4pc;
 	background-repeat: no-repeat;  
 	background-position: 50% 50%;	
 }
 
 #abilityBtn {
 	background: url("assets/abilityBtn.png");
-	background-size: 98%;
+	background-size: 4pc;
 	background-position: 50% 50%;	
 	background-repeat: no-repeat;  
 }
 
 #proficiencyBtn {
 	background: url("assets/proficiencyBtn.png");
-	background-size: 98%;
+	background-size: 5pc;
 	background-position: 50% 50%;	
 	background-repeat: no-repeat;  
 }
 
 #setbackBtn {
 	background: url("assets/setbackBtn.png");
-	background-size: 98%;
+	background-size: 4pc;
 	background-position: 50% 50%;	
 	background-repeat: no-repeat;  
 }
 
 #difficultyBtn {
 	background: url("assets/difficultyBtn.png");
-	background-size: 98%;
+	background-size: 4pc;
 	background-position: 50% 50%;	
 	background-repeat: no-repeat;  
 }
 
 #challengeBtn {
 	background: url("assets/challengeBtn.png");
-	background-size: 98%;
+	background-size: 5pc;
 	background-position: 50% 50%;	
 	background-repeat: no-repeat;  
 }
